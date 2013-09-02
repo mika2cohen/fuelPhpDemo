@@ -32,7 +32,7 @@ class Controller_Welcome extends Controller
 	{
         $view = View::forge("welcome/hello_world",array(
             'name' => 'Miko',
-            'other' => 'one'
+            'other' => 'two'
         ));
 
 		return Response::forge($view);
